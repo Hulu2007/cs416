@@ -224,7 +224,7 @@ header {
         var cs = d3.scaleOrdinal().domain(regions)
             .range(["green", "blue", "orange", "red", "grey", "slateblue","brown"])
 
-        data = await d3.csv("https://hulu2007.github.io/cs416/gdp_birth_pop_2012.csv");
+        data = await d3.csv("https://hulu2007.github.io/data_visualization/gdp_birth_pop_2012.csv");
 
         var svg = d3.select("#div_template").append("svg")
             .attr("width", (width + margin.left + margin.right))
